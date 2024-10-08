@@ -95,7 +95,30 @@
 
 
 // var element = document.querySelectorAll("ul")[0].innerHTML;
-var element = document.querySelectorAll("#header h1");
+// var element = document.querySelectorAll("#header h1");
+// console.log(element);
+
+
+// // var element = document.querySelectorAll("#header");
+// // var element = document.querySelector("#header").getAttribute("style");
+// var element = document.querySelector("#header").setAttribute("class", "mno");
+// var element = document.querySelector("#header").getAttribute("class");
+// console.log(element);
+
+
+// var element = document.querySelector(".list");
+
+// console.log(element);
+
+
+// Through query selector we can get and set values
+
+// var element = document.querySelectorAll(".list")[1].innerHTML;
+// var element = document.querySelectorAll("ul")[0].innerHTML;
+// var element = document.querySelectorAll("ul")[1].innerHTML;
+// var element = document.querySelectorAll("ul")[1].innerText;
+
+
+var element = document.querySelectorAll("#header h1")[1].innerHTML;
+
 console.log(element);
-
-
