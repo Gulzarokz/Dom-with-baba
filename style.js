@@ -162,4 +162,16 @@
 // console.log(element);
 
 
-// 
+// addEventListener methods
+var element = document.getElementById("header").onclick = abc;
+// var element = document.getElementById("header").onmouseenter = abc;
+// var element = document.getElementById("header").addEventListener("click", abc);
+var element = document.getElementById("header").addEventListener("click", abc);
+var element = document.getElementById("header").addEventListener("click", function(){
+    // document.getElementById("header").style.border = "10px dashed blue";
+    this.style.border = "10px dashed blue";
+});
+
+function abc(){
+    document.getElementById("header").style.backgroundColor = "black"
+}
