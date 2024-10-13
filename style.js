@@ -163,15 +163,61 @@
 
 
 // addEventListener methods
-var element = document.getElementById("header").onclick = abc;
+// var element = document.getElementById("header").onclick = abc;
 // var element = document.getElementById("header").onmouseenter = abc;
 // var element = document.getElementById("header").addEventListener("click", abc);
-var element = document.getElementById("header").addEventListener("click", abc);
-var element = document.getElementById("header").addEventListener("click", function(){
+// var element = document.getElementById("header").addEventListener("click", abc);
+// var element = document.getElementById("header").addEventListener("click", function(){
     // document.getElementById("header").style.border = "10px dashed blue";
-    this.style.border = "10px dashed blue";
-});
+//     this.style.border = "10px dashed blue";
+// });
 
-function abc(){
-    document.getElementById("header").style.backgroundColor = "black"
-}
+// function abc(){
+//     document.getElementById("header").style.backgroundColor = "black"
+// }
+
+
+// document.querySelector("#outer").addEventListener('click', outer)
+// document.querySelector("#inner").addEventListener('click', inner )
+
+//     function outer() {
+//         alert("outer dive");
+//     }
+
+//     function inner() {
+//         alert("outer dive");
+//     }
+
+
+//classList methods 
+// var element = document.getElementById("#header").addEventListener("click", abc);
+
+
+// function abc(){
+//     document.getElementById("#header").classList.add("xyz");
+// }
+
+// Dom Traversal methods
+
+// var a = document.getElementById("inner").parentElement;
+// var a = document.getElementById("outer").parentElement;
+// var a = document.getElementById("inner").parentElement.style.background = "red";
+// var a = document.getElementById("c").parentElement.style.background = "red";
+// var a = document.getElementById("c").parentElement;
+// var a = document.getElementById("head").parentNode;
+// console.log(a);
+
+// child childernNodes
+
+// var a = document.getElementById("outer").childern;
+// console.log(a);
+
+// var a = document.getElementById("inner-items").children;
+// var a = document.getElementById("inner").children[1].style.background = "red";
+// var a = document.getElementById("inner").children[1];
+// var a = document.getElementById("inner").children[1].style.background = "Yellow";
+// var a = document.getElementById("inner").children[1];
+
+
+var a = document.getElementById("inner").childNodes[0].innerHtml;
+console.log(a);
