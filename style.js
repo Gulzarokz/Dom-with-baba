@@ -219,5 +219,24 @@
 // var a = document.getElementById("inner").children[1];
 
 
-var a = document.getElementById("inner").childNodes[0].innerHtml;
-console.log(a);
+// var a = document.getElementById("inner").childNodes[0].innerHtml;
+// console.log(a);
+
+
+// // first child and first childElements
+// var a = document.getElementById("inner").firstElementChild.style.background = "red";
+// var a = document.getElementById("inner").firstElementChild;
+
+// var a = document.getElementById("outer").firstElementChild.style.background = "red";
+// var a = document.getElementById("outer").firstElementChild;
+
+// var a = document.getElementById("inner").lastElementChild.style.background = "red";
+// var a = document.getElementById("inner").LastElementChild;
+
+// var a = document.getElementById("inner").firstChild.style.background = "red";
+// var a = document.getElementById("inner").firstChild;
+// var a = document.getElementById("inner").lastChild;
+// var a = document.getElementById("see").firstChild;
+// var a = document.getElementById("see").lastChild;
+// console.log(a);
+
