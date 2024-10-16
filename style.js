@@ -240,3 +240,21 @@
 // var a = document.getElementById("see").lastChild;
 // console.log(a);
 
+// Nextsibling and previous sibling
+
+// var a = document.getElementById("b").nextElementSibling;
+// console.log(a);
+
+
+//  document.getElementById("b").previousElementSibling.style.background = "red";
+// var a = document.getElementById("b").previousElementSibling;
+// console.log(a);
+
+// //  document.getElementById("a").previousElementSibling.style.background = "red";
+// var a = document.getElementById("e").nextElementSibling;
+// console.log(a);
+
+//  document.getElementById("a").previousElementSibling.style.background = "red";
+// var a = document.getElementById("e").nextSibling;
+var a = document.getElementById("e").previousSibling;
+console.log(a);
