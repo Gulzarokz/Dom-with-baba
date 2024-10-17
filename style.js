@@ -256,5 +256,37 @@
 
 //  document.getElementById("a").previousElementSibling.style.background = "red";
 // var a = document.getElementById("e").nextSibling;
-var a = document.getElementById("e").previousSibling;
-console.log(a);
+// var a = document.getElementById("e").previousSibling;
+// console.log(a);
+
+//Create Elements in the document
+
+// // var newElement = document.createElement("p");
+// var  newElement = document.createElement("ul");
+// console.log(newElement);
+    
+// var textNode = document.createTextNode("This is my first Node in html");
+// console.log(textNode);
+
+    // var newComment = document.createComment("This is comments please ignore ");
+    // console.log(newComment);
+    
+// Used append method
+
+var newElement = document.createElement("h2");
+var newText = document.createTextNode("This is my text")
+// // console.log(newElement);
+
+
+newElement.appendChild(newText);
+document.getElementById("text").appendChild(newElement);
+console.log(newElement);
+
+var target = document.getElementById("text");
+target.insertBefore(newElement, target.childNodes[0]);
+
+
+// newComment = document.createComment("This is just comment");
+// document.getElementById("text").appendChild(newComment);
+// console.log(newComment);
+
