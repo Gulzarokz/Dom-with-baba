@@ -273,20 +273,51 @@
     
 // Used append method
 
-var newElement = document.createElement("h2");
-var newText = document.createTextNode("This is my text")
-// // console.log(newElement);
+// var newElement = document.createElement("h2");
+// var newText = document.createTextNode("This is my text");
+// console.log(newElement);
+// console.log(newText);
 
 
-newElement.appendChild(newText);
-document.getElementById("text").appendChild(newElement);
-console.log(newElement);
 
-var target = document.getElementById("text");
-target.insertBefore(newElement, target.childNodes[0]);
+//   newElement.appendChild(newText);
+//   document.getElementById("text").appendChild(newElement);
+// console.log(newElement);
+// console.log(newText);
 
 
-// newComment = document.createComment("This is just comment");
+// var target = document.getElementById("text");
+// target.insertBefore(newElement, target.childNodes[0]);
+
+
+// // newComment = document.createComment("This is just comment");
 // document.getElementById("text").appendChild(newComment);
 // console.log(newComment);
 
+
+
+// var newElement = document.createElement("h2");
+// var newText = document.createTextNode("This is my gul");
+// console.log(newElement);
+// console.log(newText);
+
+
+
+// newElement.appendChild(newText);
+
+// var target = document.getElementById("text");
+// // target.insertAdjacentElement("afterbegin", newElement);
+// // target.insertAdjacentElement("beforebegin", newElement);
+
+
+var target = document.getElementById("text");
+
+newElement = "<h2>This is my heading</h2>";
+//  target.insertAdjacentHTML('afterbegin', newElement);
+//  target.insertAdjacentHTML('afterend', newElement);
+//  target.insertAdjacentHTML('beforeend', newElement);
+
+
+var target = document.getElementById("text");
+ newText = "This is my text";
+  target.insertAdjacentHTML("afterend", newText);
