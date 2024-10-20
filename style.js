@@ -310,14 +310,36 @@
 // // target.insertAdjacentElement("beforebegin", newElement);
 
 
-var target = document.getElementById("text");
+// var target = document.getElementById("text");
 
-newElement = "<h2>This is my heading</h2>";
+// newElement = "<h2>This is my heading</h2>";
 //  target.insertAdjacentHTML('afterbegin', newElement);
 //  target.insertAdjacentHTML('afterend', newElement);
 //  target.insertAdjacentHTML('beforeend', newElement);
 
 
-var target = document.getElementById("text");
- newText = "This is my text";
-  target.insertAdjacentHTML("afterend", newText);
+// var target = document.getElementById("text");
+//  newText = "This is my text";
+//   target.insertAdjacentHTML("afterend", newText);
+
+
+// replace or remove methods;
+
+// var newElement = document.createElement("li");
+// var newText = document.createTextNode("This is WOw");
+
+// newElement.append(newText);
+
+// var target = document.getElementById("list");
+
+// var oldElement = target.children[0];
+// console.log(oldElement);
+
+// target.replaceChild(newElement,oldElement)
+// remove methods
+
+var target = document.getElementById("list");
+
+var oldElement = target.children[1];
+
+target.removeChild(oldElement);
